@@ -31,3 +31,10 @@ console.log([...array])
 
 const copyCopyUser = {...user1, name: "Bob"}
 console.log(copyCopyUser)
+
+const student = {
+    name: "Antony",
+    age: 29,
+    friends: ["Ann", "Helge", "Versavia"]
+}
+
