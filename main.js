@@ -35,6 +35,10 @@ console.log(copyCopyUser)
 const student = {
     name: "Antony",
     age: 29,
-    friends: ["Ann", "Helge", "Versavia"]
+    friends: ["Ann", "Helge", "Versavia"] //типа №007
 }
 
+const copyStudent = {...student, name: "Alex"}
+copyStudent.friends.push("Lera") //
+
+console.log(student)
