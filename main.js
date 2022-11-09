@@ -24,3 +24,4 @@ const copyUser = {}
 copyUser.name = user1.name
 copyUser.age = user1.age
 console.log(copyUser)
+console.log({} === {}) // False, пригодится на собесе
