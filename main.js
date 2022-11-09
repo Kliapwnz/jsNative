@@ -16,3 +16,6 @@ console.log(Array.isArray([])) // тру выдает
 console.log(Array.isArray({})) // false выдает //надо пересмотреть
 console.log(typeof Infinity)
 console.log(Number.isFinite(Infinity))
+
+
+// object => create copy => вносим изменения в компию => используем копию
