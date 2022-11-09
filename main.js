@@ -43,4 +43,4 @@ copyStudent.friends.push("Lera") // добавляется всем
 
 console.log(student)
 
-const deepCopyStudent = {...student, friends: [...student.friends, "Lera"]} // подробное копирование
+const deepCopyStudent = {...student, friends: [...student.friends, "Lera"]} // глубокое копирование
