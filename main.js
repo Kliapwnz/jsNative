@@ -25,3 +25,9 @@ const copyUser = {...user1} // spreadoperator
 // copyUser.age = user1.age
 console.log(copyUser)
 console.log({} === {}) // False, пригодится на собесе
+
+const array = [1, 2, 3, 4, 5]
+console.log([...array])
+
+const copyCopyUser = {...user1, name: "Bob"}
+console.log(copyCopyUser)
