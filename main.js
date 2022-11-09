@@ -20,8 +20,8 @@ console.log(Number.isFinite(Infinity))
 
 // object => create copy => вносим изменения в компию => используем копию
 
-const copyUser = {}
-copyUser.name = user1.name
-copyUser.age = user1.age
+const copyUser = {...user1} // spreadoperator
+// copyUser.name = user1.name
+// copyUser.age = user1.age
 console.log(copyUser)
 console.log({} === {}) // False, пригодится на собесе
