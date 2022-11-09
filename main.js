@@ -42,3 +42,5 @@ const copyStudent = {...student, name: "Alex"} // типо №007
 copyStudent.friends.push("Lera") // добавляется всем
 
 console.log(student)
+
+const deepCopyStudent = {...student, friends: [...student.friends, "Lera"]} // подробное копирование
