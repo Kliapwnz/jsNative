@@ -35,10 +35,10 @@ console.log(copyCopyUser)
 const student = {
     name: "Antony",
     age: 29,
-    friends: ["Ann", "Helge", "Versavia"] //типа №007
+    friends: ["Ann", "Helge", "Versavia"] //типа №007 (поверхностное копирование)
 }
 
-const copyStudent = {...student, name: "Alex"}
-copyStudent.friends.push("Lera") //
+const copyStudent = {...student, name: "Alex"} // типо №007
+copyStudent.friends.push("Lera") // добавляется всем
 
 console.log(student)
